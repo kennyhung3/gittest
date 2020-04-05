@@ -12,6 +12,7 @@
  $command2 = escapeshellcmd('11.py');
  $output2 = shell_exec($command2);
  echo $output2;
+ echo ""
 ?>
 
 <?php
